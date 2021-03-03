@@ -34,9 +34,9 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: "home",
-      filename: "remoteEntry.js",
+      filename: "expertEntry.js",
       remotes: {
-        chat: "chat@http://localhost:8080/remoteEntry.js",
+        chat: "chat@http://localhost:8080/expertEntry.js",
       },
       exposes: {},
       shared: {
