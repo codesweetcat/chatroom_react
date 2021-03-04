@@ -9,4 +9,5 @@ Then run: npm start.
 The singleton char component will run on : http:// localhost.com:8080,
 Customer page will run on : http://localhost:8081/customer,
 Expert page will run on :  http://localhost:8082/expert.
+Node server will run on : http://localhost:4000
 
